@@ -5,7 +5,7 @@ import { useEffect, useState } from "react";
 import { userFinancialProfile, getTransaksi } from "../utils/api";
 import Swal from "sweetalert2";
 import TransactionHistory from "../components/transaction/TransactionHistory";
-import Sidebar from "../components/Sidebar";
+import Sidebar from "../components/sideBar.jsx";
 import { useNavigate } from "react-router-dom";
 
 const Skeleton = ({ className }) => (

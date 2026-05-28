@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import { motion } from "motion/react";
 
-import Sidebar from "../components/Sidebar";
+import Sidebar from "../components/sideBar.jsx";
 import TransactionForm from "../components/transaction/TransactionForm";
 import TransactionHistory from "../components/transaction/TransactionHistory";
 
